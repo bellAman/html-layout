@@ -15,5 +15,30 @@ p {
   color: #a3217b;
   text-align: center;
 }
-background-image: 
-]
+.logo {
+  background-image: url("./Logo.png");
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: -16em;
+  left: 5em;
+}
+.menu {
+  background-image: url("./Menu-icon.png");
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: -18em;
+  left: 75em;
+}
+.button-down {
+  background-image: url("./button-down.png");
+  background-repeat: no-repeat;
+  height: 75px;
+  width: 75px;
+  position: relative;
+  left: 40em;
+  top: 5em;
+}
