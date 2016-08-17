@@ -1,0 +1,79 @@
+.top-section {
+    height:100vh;
+    width:100vw;
+    background: url('https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/assets/mp-hero-02.jpg') no-repeat;
+    background-size: cover;
+    /*background-position: left -300px top 0;*/
+    /*padding-top: calc(50vh - 30px);*/
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.branding-box {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 3px solid white;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  width: 90%;
+  margin:auto;
+}
+
+.product-container {
+  height: 30vh;
+  width: 90%;
+  margin: 0 auto 25px;
+  background: #ccc;
+}
+
+.large {
+  height: 30vh;
+  width: 90%;
+  margin: 0 auto 25px;
+  background: #ccc;
+}
+
+.footer {
+  height: 20vh;
+  width: 100%auto;
+  background: black;
+}
+.logo {
+  height:25%;
+  width:5%;
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+  top: 45%;
+  left: 45%;
+}
+
+@media(min-width: 450px) {
+  .product-container {
+    height: 30vh;
+    width: 45vw;
+    margin: 2%;
+    display: inline-block;
+}
+.large {
+  height: 30vh;
+  width: 95%;
+
+ }
+}
+
+@media(min-width: 900px) {
+.product-container {
+    height: 50vh;
+    width: 45vw;
+    margin: 2%;
+  }
+.large {
+  height: 60vh;
+  width: 95%;
+
+  }
+}
